@@ -1,0 +1,16 @@
+name: Artebike
+type: theme
+description: Een thema gemaakt voor Artebike, het maakt verfrissend gebruik van de huisstijl van Artevelde Hogeschool.
+version: 0.1
+core: 8.x
+base theme: classy
+libraries:
+  - artebike/fonts
+  - artebike/global-styling
+regions:
+  menu: 'Menu'
+  branding: 'Branding'
+  header: 'Header'
+  image: 'Image/Description'
+  content: 'Content'
+  footer: 'Footer'

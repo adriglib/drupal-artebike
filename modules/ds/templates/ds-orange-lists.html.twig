@@ -1,0 +1,63 @@
+{% if page.menu %}
+    <div>
+        {{ page.menu }}
+    </div>
+{% endif %}
+
+<nav class="navbar navbar-light pt-4">
+    <div class="col-md-10 offset-md-1 col-sm-12">
+        <div class="navbar-brand">
+          {% if page.branding %}
+            {{ page.branding }}
+          {% endif %}
+        </div>
+        <div class="navbar-brand float-right menu-button" onclick="openNav()">
+            <a href="#">
+                Menu
+            </a>
+        </div>
+    </div>
+</nav>
+
+<main class="container tarieven">
+    <div class="row top-row pt-5 pb-3">
+        <div class="col-xs-12 col-md-6 offset-md-3">
+            <h1 class="big-title text-center" data-aos="fade" data-aos-easing="ease-in-sine" data-aos-duration="800">
+                {% if page.header %}
+                    {{ page.header }}
+                {% endif %}
+            </h1>
+        </div>
+    </div>
+    <div class="row bottom-row">
+        <figure class="figure image-container col-xs-12 col-lg-12 pt-5" data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1200" data-aos-delay="800" style="margin-bottom: 0;">
+            {% if page.image %}
+                {{ page.image }}
+            {% endif %}
+        </figure>
+    </div>
+
+</main>
+<main class="container-fluid  orange-bg">
+    <div class="row col-xs-12 col-md-6 offset-md-3 text-white pt-5 pb-5">
+        <ul class="list-unstyled">
+            {% if page.content %}
+                {{ page.content}}
+            {% endif %}
+        </ul>
+    </div>
+</main>
+<footer class="container-fluid black-bg">
+    <div class="row">
+        <div class="row col-xs-12 col-md-8 offset-md-2 mt-5 mb-5">
+            <div class="col-10 offset-1">
+                <img class="footer-logo" src="assets/brand/artevelde.svg">
+            </div>
+            <div class="col-6">
+                {% if page.footer %}
+                    {{ page.footer }}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</footer>
