@@ -13,3 +13,8 @@ entity.fiets.add_form:
   title: 'Add Fiets'
   appears_on:
     - entity.fiets.collection
+entity.reservatie.add_form:
+  route_name: entity.reservatie.add_form
+  title: 'Add Reservatie'
+  appears_on:
+    - entity.reservatie.collection

@@ -63,4 +63,25 @@ view published fiets entities:
   title: 'View published Fiets entities'
 
 view unpublished fiets entities:
-  title: 'View unpublished Fiets entities'
+  title: 'View unpublished Fiets entities'add reservatie entities:
+  title: 'Create new Reservatie entities'
+
+administer reservatie entities:
+  title: 'Administer Reservatie entities'
+  description: 'Allow to access the administration form to configure Reservatie entities.'
+  restrict access: true
+
+delete reservatie entities:
+  title: 'Delete Reservatie entities'
+
+edit reservatie entities:
+  title: 'Edit Reservatie entities'
+
+access reservatie overview:
+  title: 'Access the Reservatie overview page'
+
+view published reservatie entities:
+  title: 'View published Reservatie entities'
+
+view unpublished reservatie entities:
+  title: 'View unpublished Reservatie entities'

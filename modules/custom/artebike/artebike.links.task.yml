@@ -64,3 +64,25 @@ entity.fiets.delete_form:
   title: Delete
   weight: 10
 
+# Reservatie routing definition
+reservatie.settings_tab:
+  route_name: reservatie.settings
+  title: 'Settings'
+  base_route: reservatie.settings
+
+entity.reservatie.canonical:
+  route_name: entity.reservatie.canonical
+  base_route: entity.reservatie.canonical
+  title: 'View'
+
+entity.reservatie.edit_form:
+  route_name: entity.reservatie.edit_form
+  base_route: entity.reservatie.canonical
+  title: 'Edit'
+
+entity.reservatie.delete_form:
+  route_name:  entity.reservatie.delete_form
+  base_route:  entity.reservatie.canonical
+  title: Delete
+  weight: 10
+

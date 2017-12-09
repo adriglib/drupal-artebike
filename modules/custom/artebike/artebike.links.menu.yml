@@ -40,3 +40,17 @@ fiets.admin.structure.settings:
   description: 'Configure Fiets entities'
   route_name: fiets.settings
   parent: system.admin_structure
+
+# Reservatie menu items definition
+entity.reservatie.collection:
+  title: 'Reservatie list'
+  route_name: entity.reservatie.collection
+  description: 'List Reservatie entities'
+  parent: system.admin_structure
+  weight: 100
+
+reservatie.admin.structure.settings:
+  title: Reservatie settings
+  description: 'Configure Reservatie entities'
+  route_name: reservatie.settings
+  parent: system.admin_structure
