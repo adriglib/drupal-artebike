@@ -1,0 +1,66 @@
+add laadstation entities:
+  title: 'Create new Laadstation entities'
+
+administer laadstation entities:
+  title: 'Administer Laadstation entities'
+  description: 'Allow to access the administration form to configure Laadstation entities.'
+  restrict access: true
+
+delete laadstation entities:
+  title: 'Delete Laadstation entities'
+
+edit laadstation entities:
+  title: 'Edit Laadstation entities'
+
+access laadstation overview:
+  title: 'Access the Laadstation overview page'
+
+view published laadstation entities:
+  title: 'View published Laadstation entities'
+
+view unpublished laadstation entities:
+  title: 'View unpublished Laadstation entities'
+add fietstype entities:
+  title: 'Create new Fietstype entities'
+
+administer fietstype entities:
+  title: 'Administer Fietstype entities'
+  description: 'Allow to access the administration form to configure Fietstype entities.'
+  restrict access: true
+
+delete fietstype entities:
+  title: 'Delete Fietstype entities'
+
+edit fietstype entities:
+  title: 'Edit Fietstype entities'
+
+access fietstype overview:
+  title: 'Access the Fietstype overview page'
+
+view published fietstype entities:
+  title: 'View published Fietstype entities'
+
+view unpublished fietstype entities:
+  title: 'View unpublished Fietstype entities'
+add fiets entities:
+  title: 'Create new Fiets entities'
+
+administer fiets entities:
+  title: 'Administer Fiets entities'
+  description: 'Allow to access the administration form to configure Fiets entities.'
+  restrict access: true
+
+delete fiets entities:
+  title: 'Delete Fiets entities'
+
+edit fiets entities:
+  title: 'Edit Fiets entities'
+
+access fiets overview:
+  title: 'Access the Fiets overview page'
+
+view published fiets entities:
+  title: 'View published Fiets entities'
+
+view unpublished fiets entities:
+  title: 'View unpublished Fiets entities'

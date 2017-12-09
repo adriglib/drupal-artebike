@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains artebike.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function artebike_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the artebike module.
+    case 'help.page.artebike':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A module for Artebike, contains charging places, biketypes and bikeinfo.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function artebike_theme() {
+  return [
+    'artebike' => [
+      'render element' => 'children',
+    ],
+  ];
+}

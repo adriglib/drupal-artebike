@@ -1,0 +1,66 @@
+# Laadstation routing definition
+laadstation.settings_tab:
+  route_name: laadstation.settings
+  title: 'Settings'
+  base_route: laadstation.settings
+
+entity.laadstation.canonical:
+  route_name: entity.laadstation.canonical
+  base_route: entity.laadstation.canonical
+  title: 'View'
+
+entity.laadstation.edit_form:
+  route_name: entity.laadstation.edit_form
+  base_route: entity.laadstation.canonical
+  title: 'Edit'
+
+entity.laadstation.delete_form:
+  route_name:  entity.laadstation.delete_form
+  base_route:  entity.laadstation.canonical
+  title: Delete
+  weight: 10
+
+# Fietstype routing definition
+fietstype.settings_tab:
+  route_name: fietstype.settings
+  title: 'Settings'
+  base_route: fietstype.settings
+
+entity.fietstype.canonical:
+  route_name: entity.fietstype.canonical
+  base_route: entity.fietstype.canonical
+  title: 'View'
+
+entity.fietstype.edit_form:
+  route_name: entity.fietstype.edit_form
+  base_route: entity.fietstype.canonical
+  title: 'Edit'
+
+entity.fietstype.delete_form:
+  route_name:  entity.fietstype.delete_form
+  base_route:  entity.fietstype.canonical
+  title: Delete
+  weight: 10
+
+# Fiets routing definition
+fiets.settings_tab:
+  route_name: fiets.settings
+  title: 'Settings'
+  base_route: fiets.settings
+
+entity.fiets.canonical:
+  route_name: entity.fiets.canonical
+  base_route: entity.fiets.canonical
+  title: 'View'
+
+entity.fiets.edit_form:
+  route_name: entity.fiets.edit_form
+  base_route: entity.fiets.canonical
+  title: 'Edit'
+
+entity.fiets.delete_form:
+  route_name:  entity.fiets.delete_form
+  base_route:  entity.fiets.canonical
+  title: Delete
+  weight: 10
+

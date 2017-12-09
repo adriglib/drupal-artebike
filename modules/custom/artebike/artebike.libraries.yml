@@ -1,0 +1,30 @@
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:400,600': { type: external, minified: true }
+
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.css: {}
+      assets/css/custom.css: {}
+      assets/css/menu.css: {}
+      includes/aos/css/aos.css: {}
+      includes/leaflet/css/leaflet.css: {}
+  js:
+    includes/popper/js/popper.min.js: {}
+    includes/bootstrap/js/bootstrap.min.js: {}
+    includes/aos/js/aos.js: {}
+    includes/aos/js/init-aos.js: {}
+    includes/axios/js/axios.js: {}
+    includes/leaflet/js/leaflet.js: {}
+    assets/js/main.js: {}
+    assets/js/menu.js: {}
+    assets/js/map.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupalSettings
+    - core/jquery.once

@@ -1,0 +1,8 @@
+name: artebike
+type: module
+description: A module for Artebike, contains charging places, biketypes and bikeinfo.
+core: 8.x
+package: Custom
+libraries:
+  - artebike/fonts
+  - artebike/global-styling

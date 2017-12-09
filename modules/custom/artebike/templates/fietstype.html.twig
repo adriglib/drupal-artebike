@@ -1,0 +1,22 @@
+{#
+/**
+ * @file fietstype.html.twig
+ * Default theme implementation to present Fietstype data.
+ *
+ * This template is used when viewing Fietstype pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_fietstype()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('fietstype') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

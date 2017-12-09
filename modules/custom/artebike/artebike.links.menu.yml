@@ -1,0 +1,42 @@
+
+# Laadstation menu items definition
+entity.laadstation.collection:
+  title: 'Laadstation list'
+  route_name: entity.laadstation.collection
+  description: 'List Laadstation entities'
+  parent: system.admin_structure
+  weight: 100
+
+laadstation.admin.structure.settings:
+  title: Laadstation settings
+  description: 'Configure Laadstation entities'
+  route_name: laadstation.settings
+  parent: system.admin_structure
+
+# Fietstype menu items definition
+entity.fietstype.collection:
+  title: 'Fietstype list'
+  route_name: entity.fietstype.collection
+  description: 'List Fietstype entities'
+  parent: system.admin_structure
+  weight: 100
+
+fietstype.admin.structure.settings:
+  title: Fietstype settings
+  description: 'Configure Fietstype entities'
+  route_name: fietstype.settings
+  parent: system.admin_structure
+
+# Fiets menu items definition
+entity.fiets.collection:
+  title: 'Fiets list'
+  route_name: entity.fiets.collection
+  description: 'List Fiets entities'
+  parent: system.admin_structure
+  weight: 100
+
+fiets.admin.structure.settings:
+  title: Fiets settings
+  description: 'Configure Fiets entities'
+  route_name: fiets.settings
+  parent: system.admin_structure

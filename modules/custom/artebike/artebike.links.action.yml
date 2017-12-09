@@ -1,0 +1,15 @@
+entity.laadstation.add_form:
+  route_name: entity.laadstation.add_form
+  title: 'Add Laadstation'
+  appears_on:
+    - entity.laadstation.collection
+entity.fietstype.add_form:
+  route_name: entity.fietstype.add_form
+  title: 'Add Fietstype'
+  appears_on:
+    - entity.fietstype.collection
+entity.fiets.add_form:
+  route_name: entity.fiets.add_form
+  title: 'Add Fiets'
+  appears_on:
+    - entity.fiets.collection
