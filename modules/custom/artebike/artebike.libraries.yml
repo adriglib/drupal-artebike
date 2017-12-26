@@ -7,24 +7,29 @@ global-styling:
   version: VERSION
   css:
     theme:
-      includes/bootstrap/css/bootstrap.css: {}
-      assets/css/custom.css: {}
-      assets/css/menu.css: {}
-      includes/aos/css/aos.css: {}
-      includes/leaflet/css/leaflet.css: {}
+      ../../../themes/artebike/includes/bootstrap/css/bootstrap.css: {}
+      ../../../themes/artebike/assets/css/main.css: {}
+      ../../../themes/artebike/includes/aos/css/aos.css: {}
   js:
-    includes/popper/js/popper.min.js: {}
-    includes/bootstrap/js/bootstrap.min.js: {}
-    includes/aos/js/aos.js: {}
-    includes/aos/js/init-aos.js: {}
-    includes/axios/js/axios.js: {}
-    includes/leaflet/js/leaflet.js: {}
-    assets/js/main.js: {}
-    assets/js/menu.js: {}
-    assets/js/map.js: {}
+    ../../../themes/artebike/includes/popper/js/popper.min.js: {}
+    ../../../themes/artebike/includes/bootstrap/js/bootstrap.min.js: {}
+    ../../../themes/artebike/includes/aos/js/aos.js: {}
+    ../../../themes/artebike/includes/aos/js/init-aos.js: {}
+    ../../../themes/artebike/assets/js/main.js: {}
+    ../../../themes/artebike/assets/js/menu.js: {}
   dependencies:
     - core/jquery
     - core/drupal
     - core/drupal.ajax
     - core/drupalSettings
     - core/jquery.once
+
+map:
+  version: VERSION
+  css:
+    theme:
+      ../../../themes/artebike/includes/leaflet/css/leaflet.css: {}
+  js:
+    ../../../themes/artebike/includes/axios/js/axios.js: {}
+    ../../../themes/artebike/includes/leaflet/js/leaflet.js: {}
+    ../../../themes/artebike/assets/js/map.js: {}

@@ -13,11 +13,12 @@
     axios
         .get('http://cms.localhost/api/locations')
         .then(({data:locations}) => {
+            console.log(locations)
             locationsArray.push(locations)
             mymap.whenReady(
                 function () {
                     for ( let i = 0; i < locationsArray[0].length; i++ ) {
-                        addMarkers(locationsArray[0][i].field_latitude[0].value, locationsArray[0][i].field_longitude[0].value)
+                        addMarkers(locationsArray[0][i].field_latitude, locationsArray[0][i].field_longitude)
                     }
                 }
             );

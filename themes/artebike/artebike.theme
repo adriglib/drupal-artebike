@@ -34,3 +34,11 @@ function artebike_theme_suggestions_menu_alter(array &$suggestions, array $varia
     $suggestions[] = $variables['theme_hook_original'] . '__' . $region . '__' . $hook;
   }
 }
+
+/**
+*function artebike_form_alter(&$form, &$form_state, $form_id) {
+*    if ($form_id =='contact-message-vragen-form') {
+*        $form['actions']['submit']['#value'] = t('Verzend bericht');
+*    }
+*}
+**/

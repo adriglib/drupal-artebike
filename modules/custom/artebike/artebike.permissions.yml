@@ -63,7 +63,7 @@ view published fiets entities:
   title: 'View published Fiets entities'
 
 view unpublished fiets entities:
-  title: 'View unpublished Fiets entities'add reservatie entities:
+  title: 'View unpublished Fiets entities'
   title: 'Create new Reservatie entities'
 
 administer reservatie entities:

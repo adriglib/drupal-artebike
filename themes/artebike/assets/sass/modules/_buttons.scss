@@ -1,0 +1,14 @@
+/* _-_-_- modules/BUTTONS -_-_-_ */
+
+/* MENU BUTTONS */
+.menu-button {
+  background-color: $orange;
+  padding: $small-pad-marg $normal-pad-marg;
+  border-radius: $large-radius;
+}
+
+
+.menu-button > a {
+  color: $white;
+}
+

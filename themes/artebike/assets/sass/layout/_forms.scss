@@ -1,0 +1,45 @@
+/* _-_-_- layout/FORMS -_-_-_ */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+input, textarea,.form-textarea-wrapper textarea{
+  display: block;
+  padding: $small-pad-marg;
+  border-radius: $huge-radius 20px;;
+  border: none;
+  margin: $normal-pad-marg 0;
+  float: left;
+  color: $black;
+}
+
+.js-text-full, .form-email {
+  width: 100%;
+}
+
+
+#edit-field-name-0-value--description, #edit-field-question-0-value--description {
+  display: inline-block;
+}
+
+#edit-field-question-0-value--description {
+  margin-top: $normal-pad-marg;
+}
+
+#edit-preview {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
+.form-submit {
+  color: $orange;
+  background-color: $white;
+  padding: $normal-pad-marg;
+}
+

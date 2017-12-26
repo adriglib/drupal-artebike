@@ -1,0 +1,210 @@
+/*FONTS */
+/* COLORS */
+/* PADDING AND MARGIN */
+/*RADIUS */
+/* HEIGHTS OR WIDTH*/
+/* Z-INDEX */
+/* _-_-_- base/RESET -_-_-_ */
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, label, input {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* _-_-_- base/BASE -_-_-_ */
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+/* BACKGROUND COLORS */
+.orange-bg {
+  background-color: #EE9900; }
+
+.black-bg {
+  background-color: #3E3E3E; }
+
+ul .img-fluid {
+  position: absolute;
+  padding: 0 10px 0 0; }
+
+/* _-_-_- base/TYPOGRAPHY -_-_-_ */
+/* TEXT COLOR */
+.orange {
+  color: #EE9900; }
+
+/* FONTS */
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display", Serif;
+  font-weight: 700; }
+
+/* _-_-_- layout/FOOTER -_-_-_ */
+footer {
+  min-height: 150px; }
+
+.footer li a {
+  color: #FFF; }
+
+.footer-logo {
+  width: 125px; }
+
+/* _-_-_- layout/FORMS -_-_-_ */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+input, textarea, .form-textarea-wrapper textarea {
+  display: block;
+  padding: 5px;
+  border-radius: 20px 20px;
+  border: none;
+  margin: 10px 0;
+  float: left;
+  color: #3E3E3E; }
+
+.js-text-full, .form-email {
+  width: 100%; }
+
+#edit-field-name-0-value--description, #edit-field-question-0-value--description {
+  display: inline-block; }
+
+#edit-field-question-0-value--description {
+  margin-top: 10px; }
+
+#edit-preview {
+  display: none; }
+
+label {
+  display: block; }
+
+.form-submit {
+  color: #EE9900;
+  background-color: #FFF;
+  padding: 10px; }
+
+/* _-_-_- layout/GRID -_-_-_ */
+.top-row {
+  position: relative;
+  z-index: 1000; }
+
+.bottom-row {
+  position: relative;
+  z-index: 100; }
+
+/* _-_-_- layout/HEADER -_-_-_ */
+/* _-_-_- layout/NAVIGATION -_-_-_ */
+.navbar-brand > a {
+  color: #3E3E3E;
+  text-decoration: none; }
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 10000000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: #EE9900;
+  /* Black fallback color */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
+
+.overlay::-webkit-scrollbar {
+  display: none; }
+
+.overlay::-webkit-scrollbar-thumb {
+  display: none; }
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */ }
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: "Work Sans SemiBold", SansSerif;
+  color: #FFF;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */ }
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f0f0f0; }
+
+.menu {
+  color: #FFF;
+  text-align: center !important; }
+
+ul.menu a.is-active {
+  color: #f0f0f0 !important; }
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+/* _-_-_- layout/SIDEBAR -_-_-_ */
+#mapid {
+  height: 350px; }
+
+/* _-_-_- modules/BUTTONS -_-_-_ */
+/* MENU BUTTONS */
+.menu-button {
+  background-color: #EE9900;
+  padding: 5px 10px;
+  border-radius: 15px; }
+
+.menu-button > a {
+  color: #FFF; }
+
+/* _-_-_- modules/DROPDOWN -_-_-_ */
+/* _-_-_- modules/THUMBNAILS -_-_-_ */
+/* _-_-_- pages/ABOUT -_-_-_ */
+/* _-_-_- pages/CONTACT -_-_-_ */
+/* _-_-_- pages/HOME -_-_-_ */
+
+/*# sourceMappingURL=main.css.map */
