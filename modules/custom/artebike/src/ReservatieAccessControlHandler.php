@@ -31,6 +31,9 @@ class ReservatieAccessControlHandler extends EntityAccessControlHandler {
 
       case 'delete':
         return AccessResult::allowedIfHasPermission($account, 'delete reservatie entities');
+
+      case 'create':
+        return AccessResult::allowedIfHasPermission($account, 'add reservatie entities');
     }
 
     // Unknown operation, no opinion.
